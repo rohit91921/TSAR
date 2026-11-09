@@ -32,6 +32,18 @@ navItems.forEach(function (item) {
 
 });
 
+const getStarted = document.getElementById("getStarted");
+const addToCart = document.getElementById("addToCart");
+
+getStarted.addEventListener("click", function () {
+    alert("Welcome to SmartQR Restaurant Management System!");
+});
+
+addToCart.addEventListener("click", function () {
+    alert("This is a demo menu. Online ordering will be added later.");
+});
+
+
 // AUTOMATIC COPYRIGHT YEAR
 document.getElementById("year").textContent =
     new Date().getFullYear();
